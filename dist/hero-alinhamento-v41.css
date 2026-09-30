@@ -1,0 +1,9 @@
+/* Alinhamento da marca e do texto da página inicial. */
+@media(min-width:701px){
+body[data-page="inicio"] .hero>.container.hero-grid{box-sizing:border-box!important;width:calc(100% - 128px)!important;max-width:1380px!important;margin-left:auto!important;margin-right:auto!important;padding-left:0!important;padding-right:0!important;grid-template-columns:minmax(0,42fr) minmax(0,58fr)!important;gap:48px!important}
+body[data-page="inicio"] .hero-logo{padding:0!important;justify-content:flex-start!important;min-width:0}
+body[data-page="inicio"] .hero-logo img{width:min(430px,100%)!important;max-height:460px!important;object-fit:contain}
+body[data-page="inicio"] .hero-copy{padding:0!important;min-width:0}
+body[data-page="inicio"] .hero-copy h1,body[data-page="inicio"] .hero-copy .summary{max-width:none!important}
+}
+@media(max-width:700px){body[data-page="inicio"] .hero>.container.hero-grid{width:calc(100% - 32px)!important;margin-inline:auto!important;padding-inline:0!important}body[data-page="inicio"] .hero-logo{padding:0!important;justify-content:center!important}}
