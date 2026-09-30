@@ -1,0 +1,1037 @@
+{
+  "originais": 207,
+  "galeria": 205,
+  "maior_diferenca": 37.65462112426758,
+  "nao_identificados_na_galeria": [
+    "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (109).jpg",
+    "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0070_3.jpg",
+    "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0071_3.jpg"
+  ],
+  "comparacao": [
+    {
+      "site": "current-001.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0000_0.jpg",
+      "diferenca": 0.2685546875
+    },
+    {
+      "site": "current-002.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0000_1.jpg",
+      "diferenca": 0.2854817807674408
+    },
+    {
+      "site": "current-003.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0001_IMG_20260829_171711.jpg",
+      "diferenca": 0.2926432192325592
+    },
+    {
+      "site": "current-004.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0002_IMG_20260801_114708.jpg",
+      "diferenca": 0.2877604067325592
+    },
+    {
+      "site": "current-005.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0003_20260705_103317.jpg",
+      "diferenca": 0.2376302033662796
+    },
+    {
+      "site": "current-006.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0004_IMG_20260717_141418_1.jpg.jpg",
+      "diferenca": 0.2607421875
+    },
+    {
+      "site": "current-007.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0005_IMG_20260716_144455_1.jpg.jpg",
+      "diferenca": 0.248046875
+    },
+    {
+      "site": "current-008.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0006_IMG_20260711_120413.jpg",
+      "diferenca": 0.2692057192325592
+    },
+    {
+      "site": "current-009.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0007_IMG_20260711_120317.jpg",
+      "diferenca": 0.2568359375
+    },
+    {
+      "site": "current-010.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0008_IMG_20260703_145829.jpg.jpg",
+      "diferenca": 0.3346354067325592
+    },
+    {
+      "site": "current-011.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0009_2.jpg",
+      "diferenca": 0.2744140625
+    },
+    {
+      "site": "current-012.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0010_Foto_1043.jpg",
+      "diferenca": 0.267578125
+    },
+    {
+      "site": "current-013.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0011_Foto_1040.jpg",
+      "diferenca": 0.2646484375
+    },
+    {
+      "site": "current-014.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0012_Foto_1029.jpg",
+      "diferenca": 0.3115234375
+    },
+    {
+      "site": "current-015.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0013_Foto_1028.jpg",
+      "diferenca": 0.234375
+    },
+    {
+      "site": "current-016.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0014_Foto_1026.jpg",
+      "diferenca": 0.2858072817325592
+    },
+    {
+      "site": "current-017.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0015_Foto_1025.jpg",
+      "diferenca": 0.2526041567325592
+    },
+    {
+      "site": "current-018.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0016_Foto_1023.jpg",
+      "diferenca": 0.2718099057674408
+    },
+    {
+      "site": "current-019.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0017_Foto_1020.jpg",
+      "diferenca": 0.2366536408662796
+    },
+    {
+      "site": "current-020.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0018_Foto_1018.jpg",
+      "diferenca": 0.2464192658662796
+    },
+    {
+      "site": "current-021.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0019_Foto_1017.jpg",
+      "diferenca": 0.2945963442325592
+    },
+    {
+      "site": "current-022.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0020_Foto_1014.jpg",
+      "diferenca": 0.2646484375
+    },
+    {
+      "site": "current-023.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0021_Foto_1010.jpg",
+      "diferenca": 0.2815755307674408
+    },
+    {
+      "site": "current-024.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0022_Foto_1009.jpg",
+      "diferenca": 0.2734375
+    },
+    {
+      "site": "current-025.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0023_Foto_1005.jpg",
+      "diferenca": 0.263671875
+    },
+    {
+      "site": "current-026.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0024_Foto_1004.jpg",
+      "diferenca": 0.2994791567325592
+    },
+    {
+      "site": "current-027.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0025_Foto_1001.jpg",
+      "diferenca": 0.2916666567325592
+    },
+    {
+      "site": "current-028.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0026_Foto_1076.jpg",
+      "diferenca": 0.271484375
+    },
+    {
+      "site": "current-029.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0027_Foto_1085.jpg",
+      "diferenca": 0.2581380307674408
+    },
+    {
+      "site": "current-030.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0028_Foto_1078.jpg",
+      "diferenca": 0.2438151091337204
+    },
+    {
+      "site": "current-031.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0029_Foto_1077.jpg",
+      "diferenca": 0.2727864682674408
+    },
+    {
+      "site": "current-032.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0030_Foto_1065.jpg",
+      "diferenca": 0.2740885317325592
+    },
+    {
+      "site": "current-033.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0031_Foto_1062.jpg",
+      "diferenca": 0.26953125
+    },
+    {
+      "site": "current-034.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0033_Foto_1058.jpg",
+      "diferenca": 0.2861328125
+    },
+    {
+      "site": "current-035.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0034_IMG_20260705_121739_049.jpg",
+      "diferenca": 0.2428385466337204
+    },
+    {
+      "site": "current-036.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0035_IMG_20260705_121734_334.jpg",
+      "diferenca": 0.2672525942325592
+    },
+    {
+      "site": "current-037.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0036_657046972_1446343407217401_6599117525029241568_n.jpg",
+      "diferenca": 0.2545572817325592
+    },
+    {
+      "site": "current-038.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0037_657846471_1446159027173780_8797003067798701450_n.jpg",
+      "diferenca": 0.255859375
+    },
+    {
+      "site": "current-039.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0038_657064114_957569483403006_4780728560529710391_n.jpg",
+      "diferenca": 0.2600911557674408
+    },
+    {
+      "site": "current-040.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0039_20260412_195556.jpg",
+      "diferenca": 0.2604166567325592
+    },
+    {
+      "site": "current-041.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0040_IMG_20260412_195537.jpg",
+      "diferenca": 0.3001302182674408
+    },
+    {
+      "site": "current-042.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0041_IMG_20260412_162514.jpg",
+      "diferenca": 0.2581380307674408
+    },
+    {
+      "site": "current-043.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0042_20260329_130717.jpg",
+      "diferenca": 0.2796224057674408
+    },
+    {
+      "site": "current-044.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0043_IMG_20260221_130857.jpg",
+      "diferenca": 0.265625
+    },
+    {
+      "site": "current-045.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0044_IMG_20260728_211645_898.jpg",
+      "diferenca": 0.3082682192325592
+    },
+    {
+      "site": "current-046.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0045_Foto_1055.jpg",
+      "diferenca": 0.259765625
+    },
+    {
+      "site": "current-047.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0046_Foto_1052.jpg",
+      "diferenca": 0.2760416567325592
+    },
+    {
+      "site": "current-048.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0047_20251231_202522.jpg",
+      "diferenca": 0.26953125
+    },
+    {
+      "site": "current-049.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0048_Foto_1047.jpg",
+      "diferenca": 0.2750650942325592
+    },
+    {
+      "site": "current-050.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0049_Foto_1017.jpg",
+      "diferenca": 0.2841796875
+    },
+    {
+      "site": "current-051.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0050_Foto_1013.jpg",
+      "diferenca": 0.2737630307674408
+    },
+    {
+      "site": "current-052.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0051_Foto_1006.jpg",
+      "diferenca": 0.2848307192325592
+    },
+    {
+      "site": "current-053.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0052_Foto_1005.jpg",
+      "diferenca": 0.2591145932674408
+    },
+    {
+      "site": "current-054.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0053_Foto_1002.jpg",
+      "diferenca": 0.2513020932674408
+    },
+    {
+      "site": "current-055.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0054_Foto_1043.jpg",
+      "diferenca": 0.2864583432674408
+    },
+    {
+      "site": "current-056.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0055_Foto_1039.jpg",
+      "diferenca": 0.2630208432674408
+    },
+    {
+      "site": "current-057.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0056_Foto_1036.jpg",
+      "diferenca": 0.2828775942325592
+    },
+    {
+      "site": "current-058.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0057_Foto_1031.jpg",
+      "diferenca": 0.263671875
+    },
+    {
+      "site": "current-059.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0058_Foto_1029.jpg",
+      "diferenca": 0.2708333432674408
+    },
+    {
+      "site": "current-060.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0059_Foto_1027.jpg",
+      "diferenca": 0.2867838442325592
+    },
+    {
+      "site": "current-061.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0060_Foto_003.jpg",
+      "diferenca": 0.3115234375
+    },
+    {
+      "site": "current-062.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0061_IMG_20180428_121048648.jpg",
+      "diferenca": 0.3001302182674408
+    },
+    {
+      "site": "current-063.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0062_IMG_20180428_111316519.jpg",
+      "diferenca": 0.2708333432674408
+    },
+    {
+      "site": "current-064.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0063_Foto_026.jpg",
+      "diferenca": 0.26953125
+    },
+    {
+      "site": "current-065.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0064_Foto_018.jpg",
+      "diferenca": 0.275390625
+    },
+    {
+      "site": "current-066.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0065_Foto_015.jpg",
+      "diferenca": 0.2652994692325592
+    },
+    {
+      "site": "current-067.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0066_Foto_013.jpg",
+      "diferenca": 0.2845052182674408
+    },
+    {
+      "site": "current-068.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0067_4.jpg",
+      "diferenca": 0.2526041567325592
+    },
+    {
+      "site": "current-069.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0068_3.jpg",
+      "diferenca": 0.2916666567325592
+    },
+    {
+      "site": "current-070.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (105).jpg",
+      "diferenca": 2.9889323711395264
+    },
+    {
+      "site": "current-new-069-3.webp",
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0069_3.jpg",
+      "diferenca": 3.1162109375
+    },
+    {
+      "site": "early-001.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (1).jpg",
+      "diferenca": 0.2682291567325592
+    },
+    {
+      "site": "early-002.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (10).jpg",
+      "diferenca": 0.2545572817325592
+    },
+    {
+      "site": "early-003.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (100).jpg",
+      "diferenca": 0.2744140625
+    },
+    {
+      "site": "early-004.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (103).jpg",
+      "diferenca": 0.2477213591337204
+    },
+    {
+      "site": "early-005.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (104).jpg",
+      "diferenca": 0.2223307341337204
+    },
+    {
+      "site": "early-006.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (11).jpg",
+      "diferenca": 0.2747395932674408
+    },
+    {
+      "site": "early-007.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (12).jpg",
+      "diferenca": 0.3014322817325592
+    },
+    {
+      "site": "early-008.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (14).jpg",
+      "diferenca": 0.2369791716337204
+    },
+    {
+      "site": "early-009.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (15).jpg",
+      "diferenca": 0.2962239682674408
+    },
+    {
+      "site": "early-010.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (16).jpg",
+      "diferenca": 0.259765625
+    },
+    {
+      "site": "early-011.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (17).jpg",
+      "diferenca": 0.2379557341337204
+    },
+    {
+      "site": "early-012.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (18).jpg",
+      "diferenca": 0.2626953125
+    },
+    {
+      "site": "early-013.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (19).jpg",
+      "diferenca": 0.2503255307674408
+    },
+    {
+      "site": "early-014.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (2).jpg",
+      "diferenca": 0.267578125
+    },
+    {
+      "site": "early-015.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (20).jpg",
+      "diferenca": 0.2705078125
+    },
+    {
+      "site": "early-016.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (21).jpg",
+      "diferenca": 0.3030599057674408
+    },
+    {
+      "site": "early-017.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (22).jpg",
+      "diferenca": 0.2294921875
+    },
+    {
+      "site": "early-018.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (23).jpg",
+      "diferenca": 0.2776692807674408
+    },
+    {
+      "site": "early-019.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (24).jpg",
+      "diferenca": 0.2698567807674408
+    },
+    {
+      "site": "early-020.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (25).jpg",
+      "diferenca": 0.2490234375
+    },
+    {
+      "site": "early-021.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (26).jpg",
+      "diferenca": 0.2620442807674408
+    },
+    {
+      "site": "early-022.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (27).jpg",
+      "diferenca": 0.2623697817325592
+    },
+    {
+      "site": "early-023.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (28).jpg",
+      "diferenca": 0.2220052033662796
+    },
+    {
+      "site": "early-024.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (29).jpg",
+      "diferenca": 0.2727864682674408
+    },
+    {
+      "site": "early-025.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (3).jpg",
+      "diferenca": 0.2825520932674408
+    },
+    {
+      "site": "early-026.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (30).jpg",
+      "diferenca": 0.2607421875
+    },
+    {
+      "site": "early-027.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (31).jpg",
+      "diferenca": 0.2425130158662796
+    },
+    {
+      "site": "early-028.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (32).jpg",
+      "diferenca": 0.2470703125
+    },
+    {
+      "site": "early-029.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (33).jpg",
+      "diferenca": 0.2799479067325592
+    },
+    {
+      "site": "early-030.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (34).jpg",
+      "diferenca": 0.2545572817325592
+    },
+    {
+      "site": "early-031.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (35).jpg",
+      "diferenca": 0.2630208432674408
+    },
+    {
+      "site": "early-032.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (36).jpg",
+      "diferenca": 0.3011067807674408
+    },
+    {
+      "site": "early-033.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (37).jpg",
+      "diferenca": 0.2639974057674408
+    },
+    {
+      "site": "early-034.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (38).jpg",
+      "diferenca": 0.255859375
+    },
+    {
+      "site": "early-035.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (39).jpg",
+      "diferenca": 0.2493489533662796
+    },
+    {
+      "site": "early-036.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (4).jpg",
+      "diferenca": 0.2708333432674408
+    },
+    {
+      "site": "early-037.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (40).jpg",
+      "diferenca": 0.2734375
+    },
+    {
+      "site": "early-038.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (41).jpg",
+      "diferenca": 0.2565104067325592
+    },
+    {
+      "site": "early-039.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (42).jpg",
+      "diferenca": 0.248046875
+    },
+    {
+      "site": "early-040.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (43).jpg",
+      "diferenca": 0.2688802182674408
+    },
+    {
+      "site": "early-041.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (44).jpg",
+      "diferenca": 0.2923177182674408
+    },
+    {
+      "site": "early-042.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (45).jpg",
+      "diferenca": 0.2493489533662796
+    },
+    {
+      "site": "early-043.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (46).jpg",
+      "diferenca": 0.248046875
+    },
+    {
+      "site": "early-044.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (47).jpg",
+      "diferenca": 0.2294921875
+    },
+    {
+      "site": "early-045.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (48).jpg",
+      "diferenca": 0.255859375
+    },
+    {
+      "site": "early-046.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (49).jpg",
+      "diferenca": 0.2819010317325592
+    },
+    {
+      "site": "early-047.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (5).jpg",
+      "diferenca": 0.2311197966337204
+    },
+    {
+      "site": "early-048.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (50).jpg",
+      "diferenca": 0.291015625
+    },
+    {
+      "site": "early-049.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (51).jpg",
+      "diferenca": 0.2766927182674408
+    },
+    {
+      "site": "early-050.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (52).jpg",
+      "diferenca": 0.2568359375
+    },
+    {
+      "site": "early-051.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (53).jpg",
+      "diferenca": 0.25
+    },
+    {
+      "site": "early-052.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (54).jpg",
+      "diferenca": 0.2522786557674408
+    },
+    {
+      "site": "early-053.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (55).jpg",
+      "diferenca": 0.2431640625
+    },
+    {
+      "site": "early-054.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (56).jpg",
+      "diferenca": 0.2786458432674408
+    },
+    {
+      "site": "early-055.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (57).jpg",
+      "diferenca": 0.2493489533662796
+    },
+    {
+      "site": "early-056.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (58).jpg",
+      "diferenca": 0.267578125
+    },
+    {
+      "site": "early-057.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (59).jpg",
+      "diferenca": 0.2307942658662796
+    },
+    {
+      "site": "early-058.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (6).jpg",
+      "diferenca": 0.2646484375
+    },
+    {
+      "site": "early-059.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (60).jpg",
+      "diferenca": 0.2552083432674408
+    },
+    {
+      "site": "early-060.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (61).jpg",
+      "diferenca": 0.2623697817325592
+    },
+    {
+      "site": "early-061.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (62).jpg",
+      "diferenca": 0.2545572817325592
+    },
+    {
+      "site": "early-062.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (63).jpg",
+      "diferenca": 0.244140625
+    },
+    {
+      "site": "early-063.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (64).jpg",
+      "diferenca": 0.3160807192325592
+    },
+    {
+      "site": "early-064.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (65).jpg",
+      "diferenca": 0.2718099057674408
+    },
+    {
+      "site": "early-065.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (66).jpg",
+      "diferenca": 0.30078125
+    },
+    {
+      "site": "early-066.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (67).jpg",
+      "diferenca": 0.2509765625
+    },
+    {
+      "site": "early-067.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (26).jpg",
+      "diferenca": 37.65462112426758
+    },
+    {
+      "site": "early-068.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (69).jpg",
+      "diferenca": 0.2789713442325592
+    },
+    {
+      "site": "early-069.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (7).jpg",
+      "diferenca": 0.2233072966337204
+    },
+    {
+      "site": "early-070.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (70).jpg",
+      "diferenca": 0.3024088442325592
+    },
+    {
+      "site": "early-071.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (71).jpg",
+      "diferenca": 0.2770182192325592
+    },
+    {
+      "site": "early-072.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (72).jpg",
+      "diferenca": 0.2454427033662796
+    },
+    {
+      "site": "early-073.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (73).jpg",
+      "diferenca": 0.2529296875
+    },
+    {
+      "site": "early-074.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (75).jpg",
+      "diferenca": 0.28125
+    },
+    {
+      "site": "early-075.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (76).jpg",
+      "diferenca": 0.2600911557674408
+    },
+    {
+      "site": "early-076.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (78).jpg",
+      "diferenca": 0.26953125
+    },
+    {
+      "site": "early-077.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (79).jpg",
+      "diferenca": 0.275390625
+    },
+    {
+      "site": "early-078.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (8).jpg",
+      "diferenca": 0.2578125
+    },
+    {
+      "site": "early-079.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (80).jpg",
+      "diferenca": 0.2630208432674408
+    },
+    {
+      "site": "early-080.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (82).jpg",
+      "diferenca": 0.3206380307674408
+    },
+    {
+      "site": "early-081.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (84).jpg",
+      "diferenca": 0.2874349057674408
+    },
+    {
+      "site": "early-082.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (86).jpg",
+      "diferenca": 0.2897135317325592
+    },
+    {
+      "site": "early-083.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (87).jpg",
+      "diferenca": 0.2887369692325592
+    },
+    {
+      "site": "early-084.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (88).jpg",
+      "diferenca": 0.2942708432674408
+    },
+    {
+      "site": "early-085.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (89).jpg",
+      "diferenca": 0.2731119692325592
+    },
+    {
+      "site": "early-086.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (9).jpg",
+      "diferenca": 0.2542317807674408
+    },
+    {
+      "site": "early-087.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (90).jpg",
+      "diferenca": 0.283203125
+    },
+    {
+      "site": "early-088.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (91).jpg",
+      "diferenca": 0.2428385466337204
+    },
+    {
+      "site": "early-089.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (92).jpg",
+      "diferenca": 0.2366536408662796
+    },
+    {
+      "site": "early-090.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (93).jpg",
+      "diferenca": 0.2711588442325592
+    },
+    {
+      "site": "early-091.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (95).jpg",
+      "diferenca": 0.2643229067325592
+    },
+    {
+      "site": "early-092.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (96).jpg",
+      "diferenca": 0.2535807192325592
+    },
+    {
+      "site": "early-093.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (97).jpg",
+      "diferenca": 0.2783203125
+    },
+    {
+      "site": "early-094.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (98).jpg",
+      "diferenca": 0.2757161557674408
+    },
+    {
+      "site": "early-095.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (99).jpg",
+      "diferenca": 0.20703125
+    },
+    {
+      "site": "early-new-106.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (106).jpg",
+      "diferenca": 3.25
+    },
+    {
+      "site": "early-new-107.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (107).jpg",
+      "diferenca": 3.1461589336395264
+    },
+    {
+      "site": "early-new-111.webp",
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (111).jpg",
+      "diferenca": 2.8577473163604736
+    },
+    {
+      "site": "expansion-001.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (1).jpg",
+      "diferenca": 0.341796875
+    },
+    {
+      "site": "expansion-002.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (10).jpg",
+      "diferenca": 0.3317057192325592
+    },
+    {
+      "site": "expansion-003.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (11).jpg",
+      "diferenca": 0.3291015625
+    },
+    {
+      "site": "expansion-004.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (12).jpg",
+      "diferenca": 0.3440755307674408
+    },
+    {
+      "site": "expansion-005.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (13).jpg",
+      "diferenca": 0.3408203125
+    },
+    {
+      "site": "expansion-006.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (15).jpg",
+      "diferenca": 0.3229166567325592
+    },
+    {
+      "site": "expansion-007.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (16).jpg",
+      "diferenca": 0.3404947817325592
+    },
+    {
+      "site": "expansion-008.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (17).jpg",
+      "diferenca": 0.3492838442325592
+    },
+    {
+      "site": "expansion-009.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (18).jpg",
+      "diferenca": 0.3053385317325592
+    },
+    {
+      "site": "expansion-010.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (19).jpg",
+      "diferenca": 0.3736979067325592
+    },
+    {
+      "site": "expansion-011.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (2).jpg",
+      "diferenca": 0.3125
+    },
+    {
+      "site": "expansion-012.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (20).jpg",
+      "diferenca": 0.3587239682674408
+    },
+    {
+      "site": "expansion-013.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (21).jpg",
+      "diferenca": 0.2991536557674408
+    },
+    {
+      "site": "expansion-014.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (22).jpg",
+      "diferenca": 0.3076171875
+    },
+    {
+      "site": "expansion-015.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (23).jpg",
+      "diferenca": 0.3141275942325592
+    },
+    {
+      "site": "expansion-016.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (24).jpg",
+      "diferenca": 0.28125
+    },
+    {
+      "site": "expansion-017.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (25).jpg",
+      "diferenca": 0.2796224057674408
+    },
+    {
+      "site": "expansion-018.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (26).jpg",
+      "diferenca": 0.3470052182674408
+    },
+    {
+      "site": "expansion-019.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (3).jpg",
+      "diferenca": 3.6380207538604736
+    },
+    {
+      "site": "expansion-020.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (30).jpg",
+      "diferenca": 0.3111979067325592
+    },
+    {
+      "site": "expansion-021.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (31).jpg",
+      "diferenca": 0.3277994692325592
+    },
+    {
+      "site": "expansion-022.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (32).jpg",
+      "diferenca": 0.3323567807674408
+    },
+    {
+      "site": "expansion-023.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (33).jpg",
+      "diferenca": 0.3134765625
+    },
+    {
+      "site": "expansion-024.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (34).jpg",
+      "diferenca": 0.341796875
+    },
+    {
+      "site": "expansion-025.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (35).jpg",
+      "diferenca": 0.3229166567325592
+    },
+    {
+      "site": "expansion-026.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (36).jpg",
+      "diferenca": 0.3411458432674408
+    },
+    {
+      "site": "expansion-027.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (37).jpg",
+      "diferenca": 0.3258463442325592
+    },
+    {
+      "site": "expansion-028.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (38).jpg",
+      "diferenca": 0.3053385317325592
+    },
+    {
+      "site": "expansion-029.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (39).jpg",
+      "diferenca": 0.3193359375
+    },
+    {
+      "site": "expansion-030.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (4).jpg",
+      "diferenca": 0.27734375
+    },
+    {
+      "site": "expansion-031.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (40).jpg",
+      "diferenca": 0.3287760317325592
+    },
+    {
+      "site": "expansion-032.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (5).jpg",
+      "diferenca": 0.3037109375
+    },
+    {
+      "site": "expansion-033.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (6).jpg",
+      "diferenca": 0.3125
+    },
+    {
+      "site": "expansion-034.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (7).jpg",
+      "diferenca": 0.2939453125
+    },
+    {
+      "site": "expansion-035.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (8).jpg",
+      "diferenca": 0.3050130307674408
+    },
+    {
+      "site": "expansion-036.webp",
+      "original": "fotos-2/DLD Fotos Oficiais 2/Fotos Horizontais (9).jpg",
+      "diferenca": 0.376953125
+    }
+  ]
+}

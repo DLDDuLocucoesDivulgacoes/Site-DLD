@@ -1,0 +1,42 @@
+{
+  "problemas_em_arquivos_antigos": [
+    {
+      "arquivo": "dist/assets/eduardo-evento.jpg",
+      "erro": "image file is truncated (41 bytes not processed)",
+      "usado_pelas_paginas": false
+    }
+  ],
+  "originais": 253,
+  "fotos_originais": 207,
+  "sublogos_projetos": 22,
+  "sublogos_trabalhos": 10,
+  "para_site": 14,
+  "galeria": {
+    "early": 100,
+    "expansion": 36,
+    "current": 72
+  },
+  "fotos_acrescentadas": [
+    {
+      "original": "fotos-1/DLD Fotos Oficiais 1/DLD Fotos Oficiais (109).jpg",
+      "galeria": "foto-original-recuperada-20260930-001.webp",
+      "bloco": "early"
+    },
+    {
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0070_3.jpg",
+      "galeria": "foto-original-recuperada-20260930-002.webp",
+      "bloco": "current"
+    },
+    {
+      "original": "fotos-3/DLD Fotos Oficiais 3/DLD Fotos Oficais Verticais_0071_3.jpg",
+      "galeria": "foto-original-recuperada-20260930-003.webp",
+      "bloco": "current"
+    }
+  ],
+  "referencias_locais_conferidas": 378,
+  "referencias_ausentes": [],
+  "imagens_do_site_decodificadas": 409,
+  "videos_locais_verificados": 1,
+  "parceiros": 96,
+  "artes_catalogo": 24
+}
