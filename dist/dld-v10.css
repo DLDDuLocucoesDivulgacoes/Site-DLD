@@ -995,8 +995,5 @@ html,body{overflow-x:hidden}
 /* Três chamadas com dimensões iguais e cores alternadas. */
 .projects-invite .intro-action,.about-card .intro-action{width:196px;min-height:48px;max-width:100%;padding:11px 16px}
 
-.site-footer{position:relative}
-.footer-actions-space{height:76px}
-.floating-actions{bottom:18px;right:20px}
-.floating-actions.is-docked{position:absolute;top:12px;bottom:auto;right:20px}
-@media(max-width:760px){.floating-actions,.floating-actions.is-docked{right:12px}}
+/* Keep buttons above the final red band without increasing footer height. */
+.floating-actions{position:fixed;bottom:18px;transition:none}
