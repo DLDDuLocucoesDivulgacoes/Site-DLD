@@ -997,3 +997,14 @@ html,body{overflow-x:hidden}
 
 /* Keep buttons above the final red band without increasing footer height. */
 .floating-actions{position:fixed;bottom:18px;transition:none}
+
+/* Marca e informações dentro de um único bloco com margens externas iguais. */
+@media(min-width:701px){
+body[data-page="inicio"] .hero-grid{width:min(1380px,calc(100% - 64px));grid-template-columns:minmax(0,42fr) minmax(0,58fr);gap:48px}
+body[data-page="inicio"] .hero-logo{justify-content:flex-start;padding:0}
+body[data-page="inicio"] .hero-logo img{width:min(380px,100%);max-height:410px}
+body[data-page="inicio"] .hero-copy{padding:0;min-width:0}
+body[data-page="inicio"] .hero-copy h1,body[data-page="inicio"] .summary{max-width:none}
+}
+@media(max-width:700px){body[data-page="inicio"] .hero-grid{width:calc(100% - 32px)}body[data-page="inicio"] .hero-logo{padding:0;justify-content:center}body[data-page="inicio"] .hero-logo img{width:min(260px,78vw);max-height:300px}body[data-page="inicio"] .hero-copy{padding-inline:0}}
+@media(min-width:701px) and (max-width:960px){.portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
