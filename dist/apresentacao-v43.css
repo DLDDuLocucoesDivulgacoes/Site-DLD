@@ -45,3 +45,10 @@ body.photo-preview-open .floating-actions{display:none!important}
 .carousel-dots button{width:10px;height:10px;padding:0;border:1px solid #e92232;border-radius:50%;background:#333;cursor:pointer}
 .carousel-dots button[aria-current="true"]{background:#e92232}
 .carousel-dots button:focus-visible{outline:2px solid white;outline-offset:3px}
+
+/* Destaques nas cinco áreas de atuação. */
+.areas .service-copy .eyebrow,.areas .service-copy .text-link{color:#ff4655!important}
+.areas .service-copy .text-link{border-bottom-color:#ff4655!important}
+.areas .service-copy .text-link:hover,.areas .service-copy .text-link:focus-visible{color:#ff7a85!important}
+.areas .service-copy h3{color:#fff!important}
+.areas .service-copy>p:not(.eyebrow){color:#d6d6d6!important}
