@@ -62,6 +62,7 @@
   }
   carousel('.service-stack', 'Áreas de atuação', 10000);
   carousel('.review-grid', 'Depoimentos', 8000);
+  carousel('.project-logo-carousel', 'Projetos da DLD', 5000);
   const floating=document.querySelector('.floating-actions'), footer=document.querySelector('.site-footer');
   if(floating && footer && matchMedia('(max-width:760px)').matches) footer.before(floating);
 })();

@@ -59,3 +59,18 @@ body[data-page="inicio"] .experience .fact strong,
 body[data-page="inicio"] .mvv-list .mvv-item h3,
 body[data-page="inicio"] .projects-invite>.eyebrow{color:#ed1b24!important}
 }
+
+/* Chamada dos projetos: logomarcas originais em ordem, sem cortes. */
+.projects-invite .project-logo-showcase{width:min(100%,440px);margin:24px auto;min-width:0}
+.project-logo-carousel .project-logo-slide{margin:0;width:100%;text-align:center;padding:8px 16px;box-sizing:border-box}
+.project-logo-stage{height:210px;display:flex;align-items:center;justify-content:center}
+.project-logo-stage img{width:var(--mark-width);height:var(--mark-height);max-width:100%;max-height:190px;object-fit:contain;margin:0 auto}
+.project-logo-slide h3{font:1.7rem var(--display);line-height:1.2;color:#fcf8f8;margin:14px 0 0;min-height:2.4em;display:flex;align-items:center;justify-content:center}
+.project-logo-showcase .carousel-controls{padding:8px 0;gap:14px}
+.project-logo-showcase .carousel-dots{padding-bottom:0;gap:7px}
+@media(max-width:760px){
+.projects-invite .project-logo-showcase{width:min(100%,360px)}
+.project-logo-stage{height:190px}
+.project-logo-stage img{max-height:175px}
+.project-logo-slide h3{font-size:1.5rem}
+}
