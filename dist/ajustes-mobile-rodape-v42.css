@@ -1,0 +1,40 @@
+/* Rodapé compacto, com os direitos autorais no bloco de contatos. */
+.site-footer{padding:8px 18px!important}
+.footer-inner{width:100%!important;max-width:1760px!important;margin:0 auto!important;grid-template-columns:280px minmax(0,1fr) 280px!important;gap:18px!important;align-items:center!important;padding:0!important}
+.footer-center{min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px}
+.footer-contact{position:static!important;left:auto!important;transform:none!important;width:100%!important;max-width:100%!important;margin:0!important;display:flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:center;gap:4px 14px!important;text-align:center!important;font-size:.875rem!important;line-height:1.4!important;grid-column:auto!important;grid-row:auto!important}
+.footer-contact>a{max-width:100%;overflow-wrap:anywhere}
+.footer-social{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px}
+.footer-bottom{position:static!important;width:100%!important;min-height:0!important;margin:0!important;padding:0!important;border:0!important;display:flex!important;flex-direction:row!important;justify-content:center!important;flex-wrap:wrap!important;gap:2px 10px!important;font-size:.75rem!important;line-height:1.4!important;text-align:center!important}
+.footer-bottom>span{position:static!important;left:auto!important;transform:none!important;white-space:normal!important}
+.footer-brand-lockup{width:280px!important;max-width:100%!important;justify-self:start!important;margin:0!important;padding:0!important}
+.footer-brand-lockup .footer-logo{width:270px!important;height:72px!important;max-height:72px!important;object-fit:contain!important;object-position:left center!important;margin:0!important}
+.footer-signature{position:static!important;left:auto!important;right:auto!important;transform:none!important;grid-column:auto!important;grid-row:auto!important;justify-self:end!important;display:block!important;width:280px!important;max-width:100%!important;height:72px!important;max-height:72px!important;object-fit:contain!important;object-position:right center!important;margin:0!important}
+@media(min-width:761px) and (max-width:1200px){.footer-inner{grid-template-columns:210px minmax(0,1fr) 210px!important;gap:14px!important}.footer-brand-lockup{width:210px!important}.footer-brand-lockup .footer-logo,.footer-signature{width:210px!important;height:64px!important;max-height:64px!important}}
+@media(max-width:760px){
+.site-footer{padding:14px 16px!important}
+.footer-inner{grid-template-columns:minmax(0,1fr)!important;gap:12px!important;text-align:center!important}
+.footer-brand-lockup{width:min(270px,100%)!important;justify-self:center!important;display:flex!important;justify-content:center!important}
+.footer-brand-lockup .footer-logo{width:100%!important;object-position:center!important}
+.footer-center{width:100%;gap:10px}
+.footer-contact{flex-direction:column!important;gap:7px!important;font-size:.875rem!important}
+.footer-contact>a{width:100%}
+.footer-social{width:100%;gap:8px 18px}
+.footer-city{display:block}
+.footer-bottom{font-size:.75rem!important;gap:2px 8px!important}
+.footer-signature{width:min(270px,100%)!important;justify-self:center!important;object-position:center!important}
+}
+/* A imagem ampliada cabe na área útil, com margens laterais iguais. */
+.photo-lightbox{width:100%!important;height:100%!important;height:100dvh!important;padding:64px 16px 20px!important;overflow:hidden!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:minmax(0,1fr)!important}
+.photo-lightbox img{display:block!important;min-width:0!important;min-height:0!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;margin:0!important;justify-self:center!important;align-self:center!important}
+.photo-lightbox button{top:10px!important;right:16px!important;width:44px!important;height:44px!important}
+body.photo-preview-open{overflow:hidden}
+body.photo-preview-open .floating-actions{visibility:hidden!important}
+@media(max-width:760px){
+.hero-copy,.service-copy,.eduardo-copy,.project-detail>div,.work-list article{min-width:0}
+.hero-actions,.cta-actions{max-width:100%}
+.contact-list a{overflow-wrap:anywhere}
+.internal-cta{padding-left:16px!important;padding-right:16px!important}
+.internal-cta h2{overflow-wrap:anywhere}
+.main-nav.open{max-height:calc(100dvh - 76px);overflow-y:auto}
+}
