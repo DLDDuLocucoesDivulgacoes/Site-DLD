@@ -38,7 +38,7 @@
     root.addEventListener('touchend', e => {if(touch){const end=e.changedTouches[0], dx=end.clientX-touch.clientX,dy=end.clientY-touch.clientY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))move(dx<0?1:-1);touch=null;}start();}, {passive:true});
     show(0); start();
   }
-  carousel('.service-stack', 'Áreas de atuação', 0);
+  carousel('.service-stack', 'Áreas de atuação', 5000);
   carousel('.review-grid', 'Depoimentos', 5000);
   const floating=document.querySelector('.floating-actions'), footer=document.querySelector('.site-footer');
   if(floating && footer && matchMedia('(max-width:760px)').matches) footer.before(floating);
