@@ -52,3 +52,10 @@ body.photo-preview-open .floating-actions{display:none!important}
 .areas .service-copy .text-link:hover,.areas .service-copy .text-link:focus-visible{color:#ff7a85!important}
 .areas .service-copy h3{color:#fff!important}
 .areas .service-copy>p:not(.eyebrow){color:#d6d6d6!important}
+
+/* Destaques selecionados apenas na apresentação do celular. */
+@media(max-width:760px){
+body[data-page="inicio"] .experience .fact strong,
+body[data-page="inicio"] .mvv-list .mvv-item h3,
+body[data-page="inicio"] .projects-invite>.eyebrow{color:#ff4655!important}
+}
