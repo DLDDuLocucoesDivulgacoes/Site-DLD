@@ -11,7 +11,7 @@
 .review-grid.dld-carousel{max-width:800px;margin-inline:auto}
 .dld-carousel .review{padding:26px;text-align:center}
 .carousel-controls{display:flex;align-items:center;justify-content:center;gap:18px;padding:16px 0}
-.carousel-controls button{width:44px;height:44px;border:1px solid #ed1b24;background:#101010;color:white;font-size:24px;cursor:pointer;border-radius:4px}
+.carousel-controls button{width:44px;height:44px;border:1px solid #e92232;background:#101010;color:white;font-size:24px;cursor:pointer;border-radius:4px}
 .carousel-controls button:focus-visible{outline:2px solid white;outline-offset:3px}
 .carousel-controls .carousel-pause{width:auto;padding-inline:12px;font:inherit}
 .carousel-count{font-size:14px;color:#ddd;min-width:48px;text-align:center}
@@ -42,13 +42,13 @@ body.photo-preview-open .floating-actions{display:none!important}
 .dld-carousel>article,.dld-carousel>blockquote{grid-column:1;grid-row:1;min-width:0;width:100%;box-sizing:border-box}
 .carousel-controls{gap:16px}
 .carousel-dots{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:0 12px 16px}
-.carousel-dots button{width:10px;height:10px;padding:0;border:1px solid #ed1b24;border-radius:50%;background:#333;cursor:pointer}
-.carousel-dots button[aria-current="true"]{background:#ed1b24}
+.carousel-dots button{width:10px;height:10px;padding:0;border:1px solid #e92232;border-radius:50%;background:#333;cursor:pointer}
+.carousel-dots button[aria-current="true"]{background:#e92232}
 .carousel-dots button:focus-visible{outline:2px solid white;outline-offset:3px}
 
 /* Destaques nas cinco áreas de atuação. */
 .areas .service-copy .eyebrow,.areas .service-copy .text-link{color:#ed1b24!important}
-.areas .service-copy .text-link{border-bottom-color:#ed1b24!important}
+.areas .service-copy .text-link{border-bottom-color:#ff4655!important}
 .areas .service-copy .text-link:hover,.areas .service-copy .text-link:focus-visible{color:#ed1b24!important}
 .areas .service-copy h3{color:#fff!important}
 .areas .service-copy>p:not(.eyebrow){color:#d6d6d6!important}
