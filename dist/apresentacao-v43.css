@@ -1,0 +1,38 @@
+/* Ajustes de apresentação — outubro de 2026 */
+.site-header .brand img{width:auto!important;height:56px!important;max-height:none!important;max-width:none!important}
+.site-header .header-monogram img{width:auto!important;height:56px!important;max-height:none!important;max-width:none!important}
+.site-header .header-inner{grid-template-columns:219px minmax(0,1fr) 95px}
+@media(min-width:961px) and (max-width:1200px){.site-header .brand img,.site-header .header-monogram img{height:48px!important}.site-header .header-inner{grid-template-columns:188px minmax(0,1fr) 82px;gap:12px}}
+.dld-carousel{display:block!important;position:relative}
+.dld-carousel > [hidden]{display:none!important}
+.dld-carousel .service-row{grid-template-columns:1fr 1fr}
+.dld-carousel .service-row .service-art{order:0!important}
+.dld-carousel .service-row .service-copy{order:1!important}
+.review-grid.dld-carousel{max-width:800px;margin-inline:auto}
+.dld-carousel .review{padding:26px;text-align:center}
+.carousel-controls{display:flex;align-items:center;justify-content:center;gap:18px;padding:16px 0}
+.carousel-controls button{width:44px;height:44px;border:1px solid #e92232;background:#101010;color:white;font-size:24px;cursor:pointer;border-radius:4px}
+.carousel-controls button:focus-visible{outline:2px solid white;outline-offset:3px}
+.carousel-controls .carousel-pause{width:auto;padding-inline:12px;font:inherit}
+.carousel-count{font-size:14px;color:#ddd;min-width:48px;text-align:center}
+@media(max-width:960px){
+.site-header .header-inner{grid-template-columns:minmax(0,1fr) 42px auto;gap:10px;padding-inline:12px}
+.site-header .brand img,.site-header .header-monogram img{height:clamp(30px,10.2vw,46px)!important}
+}
+@media(max-width:760px){
+.experience-grid>div:first-child,.hero-copy,.internal-hero .container,.page-hero,.section .center-head,.cta,.internal-cta{text-align:center!important}
+.experience-grid>div:first-child .text-link{display:inline-block}
+.hero-actions,.cta-actions{justify-content:center!important}
+.cta .location{text-align:center!important}
+.dld-carousel .service-row{grid-template-columns:minmax(0,1fr);min-height:0}
+.dld-carousel .service-copy{text-align:left}
+.site-footer .footer-center{display:contents!important}
+.site-footer .footer-brand-lockup{grid-row:1}
+.site-footer .footer-contact{grid-row:2}
+.site-footer .footer-signature{grid-row:3}
+.site-footer .footer-bottom{grid-row:4;justify-content:center!important}
+/* Um espaço próprio mantém os atalhos acessíveis sem cobrir conteúdo. */
+.floating-actions{position:static!important;inset:auto!important;transform:none!important;visibility:visible!important;display:flex!important;justify-content:center!important;gap:12px!important;width:100%!important;padding:12px 16px!important;background:#000;box-sizing:border-box}
+.floating-actions .float-button{width:44px;height:44px}
+body.photo-preview-open .floating-actions{display:none!important}
+}
