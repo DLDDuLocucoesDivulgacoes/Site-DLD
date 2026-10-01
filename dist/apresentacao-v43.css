@@ -36,3 +36,12 @@
 .floating-actions .float-button{width:44px;height:44px}
 body.photo-preview-open .floating-actions{display:none!important}
 }
+
+/* Slides simultâneos: um sai pela lateral enquanto o outro entra. */
+.dld-carousel{display:grid!important;grid-template-columns:minmax(0,1fr);overflow:hidden;isolation:isolate}
+.dld-carousel>article,.dld-carousel>blockquote{grid-column:1;grid-row:1;min-width:0;width:100%;box-sizing:border-box}
+.carousel-controls{gap:16px}
+.carousel-dots{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:0 12px 16px}
+.carousel-dots button{width:10px;height:10px;padding:0;border:1px solid #e92232;border-radius:50%;background:#333;cursor:pointer}
+.carousel-dots button[aria-current="true"]{background:#e92232}
+.carousel-dots button:focus-visible{outline:2px solid white;outline-offset:3px}
