@@ -96,3 +96,10 @@ body[data-page="inicio"] .projects-invite>.eyebrow{color:#ed1b24!important}
 .project-logo-carousel .project-logo-stage{height:290px}
 .project-logo-carousel .project-logo-stage img{width:calc(var(--mark-width)*1.4);height:calc(var(--mark-height)*1.4);max-height:266px;max-width:100%;object-fit:contain}
 }
+
+/* Mesma área de imagem e equilíbrio entre os cinco slides no celular. */
+@media(max-width:760px){
+.areas .dld-carousel .service-art{height:clamp(220px,65vw,280px)!important;aspect-ratio:auto!important}
+.areas .dld-carousel .service-art img{width:min(var(--mobile-art-width),calc((clamp(220px,65vw,280px) - 32px)*var(--mobile-art-height-factor)))!important}
+.areas .dld-carousel .service-copy{min-height:360px;box-sizing:border-box}
+}
