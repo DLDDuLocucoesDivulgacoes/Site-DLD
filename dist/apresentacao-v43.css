@@ -103,3 +103,8 @@ body[data-page="inicio"] .projects-invite>.eyebrow{color:#ed1b24!important}
 .areas .dld-carousel .service-art img{width:min(var(--mobile-art-width),calc((clamp(220px,65vw,280px) - 32px)*var(--mobile-art-height-factor)))!important}
 .areas .dld-carousel .service-copy{min-height:360px;box-sizing:border-box}
 }
+
+/* Compensação visual individual: artes verticais menores e impressos maiores. */
+@media(max-width:760px){
+.areas .dld-carousel .service-art img{width:min(calc(var(--mobile-art-width)*var(--mobile-optical-scale)),calc((clamp(220px,65vw,280px) - 32px)*var(--mobile-art-height-factor)*var(--mobile-optical-scale)))!important}
+}
