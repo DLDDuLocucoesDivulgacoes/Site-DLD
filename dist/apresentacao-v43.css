@@ -74,3 +74,18 @@ body[data-page="inicio"] .projects-invite>.eyebrow{color:#ed1b24!important}
 .project-logo-stage img{max-height:175px}
 .project-logo-slide h3{font-size:1.5rem}
 }
+
+/* Sublogos maiores exclusivamente no celular. */
+.service-icons-mobile{display:none}
+@media(max-width:760px){
+.areas .dld-carousel .service-art{position:relative;width:100%;aspect-ratio:var(--mobile-art-ratio);padding:0!important;overflow:hidden}
+.areas .dld-carousel .service-art img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--mobile-art-width)!important;max-width:none!important;height:auto!important;object-fit:contain}
+.service-icon-showcase .service-icons-complete{display:none}
+.service-icons-mobile{display:grid;gap:18px;width:100%}
+.service-icons-mobile-row{aspect-ratio:1132/226;display:flex;align-items:center;justify-content:center}
+.service-icons-mobile-row>div{position:relative;overflow:hidden;width:100%;height:100%}
+.service-icons-mobile-row img{position:absolute;top:0;height:100%;max-width:none!important;width:auto!important}
+.service-icons-mobile-row.first>div{width:80.8304%}
+.service-icons-mobile-row.first img{left:0}
+.service-icons-mobile-row.second img{right:0}
+}
