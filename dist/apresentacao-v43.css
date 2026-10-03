@@ -141,3 +141,24 @@ body .experience .fact strong{font-size:1.65rem!important}
 .service-icons-grid .service-icon-cell{height:clamp(65px,18vw,100px);min-width:0;display:flex;align-items:center;justify-content:center}
 .service-icons-grid .service-icon-cell img{display:block;position:static;width:auto!important;height:auto!important;max-width:100%!important;max-height:100%;object-fit:contain;margin:auto}
 }
+
+/* Teste: duas linhas apoiadas pela base, mantendo as proporções. */
+@media(max-width:760px){
+.service-icons-mobile.service-icons-grid{gap:22px 8px;align-items:end}
+.service-icons-grid .service-icon-cell{align-items:flex-end;justify-content:center}
+.service-icons-grid .service-icon-cell img{margin:0 auto;max-height:var(--icon-height,88%)!important;max-width:var(--icon-width,94%)!important}
+.service-icons-grid .service-icon-cell:nth-child(1){--icon-height:100%;--icon-width:100%}
+.service-icons-grid .service-icon-cell:nth-child(2){--icon-height:100%;--icon-width:100%}
+.service-icons-grid .service-icon-cell:nth-child(3){--icon-height:100%;--icon-width:100%}
+.service-icons-grid .service-icon-cell:nth-child(4){--icon-height:100%;--icon-width:100%}
+.service-icons-grid .service-icon-cell:nth-child(5){--icon-height:100%;--icon-width:100%}
+}
+
+/* Faixa original dividida no intervalo entre as logos 5 e 6; escala única. */
+@media(max-width:760px){
+.service-icons-mobile.service-icons-original{display:grid;gap:18px;width:100%}
+.service-icons-original-row{position:relative;width:100%;aspect-ratio:1132/226;overflow:hidden}
+.service-icons-original-row img{position:absolute;top:0;height:100%!important;width:auto!important;max-width:none!important;margin:0!important}
+.service-icons-original-row.first img{left:9.58480565%}
+.service-icons-original-row.second img{right:0}
+}
