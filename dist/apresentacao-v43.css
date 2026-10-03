@@ -112,3 +112,9 @@ body[data-page="inicio"] .projects-invite>.eyebrow{color:#ed1b24!important}
 /* Botões iniciais com dimensões iguais, independentemente do texto. */
 body[data-page="inicio"] .hero-actions .button{box-sizing:border-box!important;width:280px!important;min-height:54px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;text-align:center!important}
 @media(max-width:700px){body[data-page="inicio"] .hero-actions .button{width:min(280px,100%)!important}}
+
+/* Avaliações: leitura maior no computador. */
+@media(min-width:761px){
+body[data-page="inicio"] .reviews .review p{font-size:1.07rem;line-height:1.65}
+body[data-page="inicio"] .reviews .review footer{font-size:1.22rem}
+}
