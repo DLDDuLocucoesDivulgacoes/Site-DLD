@@ -162,3 +162,11 @@ body .experience .fact strong{font-size:1.65rem!important}
 .service-icons-original-row.first img{left:9.58480565%}
 .service-icons-original-row.second img{right:0}
 }
+
+@media(max-width:760px){
+.service-icons-original-row{display:flex;justify-content:center;align-items:center}
+.service-icons-original-row .original-cut{position:relative;height:100%;width:100%;overflow:hidden}
+.service-icons-original-row.first .original-cut{width:80.83038869%}
+.service-icons-original-row.first img{left:0!important}
+.service-icons-original-row.second img{right:0!important}
+}
