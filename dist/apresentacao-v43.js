@@ -50,13 +50,11 @@
     if (interval) {
       const pause = controls.querySelector('.carousel-pause');
       pause.addEventListener('click', () => {paused=!paused;pause.textContent=paused?'Continuar':'Pausar';pause.setAttribute('aria-pressed',String(paused));start();});
-      root.addEventListener('mouseenter',stop);root.addEventListener('mouseleave',start);
-      root.addEventListener('focusin',stop);root.addEventListener('focusout',start);
-      controls.addEventListener('focusin',stop);controls.addEventListener('focusout',start);
       document.addEventListener('visibilitychange',start);
     }
     let touch;
     root.addEventListener('touchstart', e => {touch=e.changedTouches[0];stop();}, {passive:true});
+    root.addEventListener('touchcancel', () => {touch=null;start();}, {passive:true});
     root.addEventListener('touchend', e => {if(touch){const end=e.changedTouches[0], dx=end.clientX-touch.clientX,dy=end.clientY-touch.clientY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))move(dx<0?1:-1);touch=null;}start();}, {passive:true});
     mark(); start();
   }
