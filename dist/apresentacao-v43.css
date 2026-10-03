@@ -118,3 +118,12 @@ body[data-page="inicio"] .hero-actions .button{box-sizing:border-box!important;w
 body[data-page="inicio"] .reviews .review p{font-size:1.07rem;line-height:1.65}
 body[data-page="inicio"] .reviews .review footer{font-size:1.22rem}
 }
+
+/* Ajustes exclusivos para leitura e projetos no computador. */
+@media(min-width:761px){
+.projects-invite .project-logo-showcase{width:min(100%,700px)}
+.project-logo-carousel .project-logo-stage{height:340px}
+.project-logo-carousel .project-logo-stage img{width:calc(var(--mark-width)*1.65);height:calc(var(--mark-height)*1.65);max-height:314px;max-width:100%;object-fit:contain}
+body[data-page="inicio"] .reviews .review p{font-size:1.22rem;line-height:1.65}
+body[data-page="inicio"] .reviews .review footer{font-size:1.35rem}
+}
