@@ -170,3 +170,9 @@ body .experience .fact strong{font-size:1.65rem!important}
 .service-icons-original-row.first img{left:0!important}
 .service-icons-original-row.second img{right:0!important}
 }
+
+@media(max-width:760px){
+.service-icons-mobile.original-icon-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px 8px;width:100%}
+.original-icon-grid .original-icon-cell{display:flex;align-items:flex-end;justify-content:center;aspect-ratio:246/226;min-width:0}
+.original-icon-grid .original-icon-cell img{position:static!important;height:auto!important;max-width:100%!important;max-height:none!important;margin:0!important;object-fit:contain}
+}
