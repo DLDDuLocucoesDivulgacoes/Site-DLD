@@ -127,3 +127,11 @@ body[data-page="inicio"] .reviews .review footer{font-size:1.22rem}
 body[data-page="inicio"] .reviews .review p{font-size:1.22rem;line-height:1.65}
 body[data-page="inicio"] .reviews .review footer{font-size:1.35rem}
 }
+
+/* Destaques no computador, com prioridade sobre as regras anteriores. */
+@media(min-width:761px){
+body .eyebrow,body .work span{font-family:var(--display)!important;font-size:1.3rem!important;letter-spacing:.12em}
+body .hero-copy .eyebrow{font-size:1.5rem!important}
+body .text-link{font-size:1.32rem!important}
+body .experience .fact strong{font-size:1.65rem!important}
+}
