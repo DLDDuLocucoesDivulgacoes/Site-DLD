@@ -1008,3 +1008,10 @@ body[data-page="inicio"] .hero-copy h1,body[data-page="inicio"] .summary{max-wid
 }
 @media(max-width:700px){body[data-page="inicio"] .hero-grid{width:calc(100% - 32px)}body[data-page="inicio"] .hero-logo{padding:0;justify-content:center}body[data-page="inicio"] .hero-logo img{width:min(260px,78vw);max-height:300px}body[data-page="inicio"] .hero-copy{padding-inline:0}}
 @media(min-width:701px) and (max-width:960px){.portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Destaques equivalentes padronizados no computador; margens preservadas. */
+@media(min-width:761px){
+.eyebrow,.work span{font-family:var(--display);font-size:1.18rem;letter-spacing:.12em;text-transform:uppercase}
+.hero-copy .eyebrow{font-size:1.42rem}
+.text-link{font-size:1.2rem}
+}

@@ -18,13 +18,13 @@ body[data-page="inicio"] .hero-logo-shine img{display:block;width:100%!important
 
 /* Alternância das duas marcas, sem alterar a arte original. */
 .hero-brand-cycle{position:relative;width:min(430px,100%);aspect-ratio:1;flex-shrink:0}
-.hero-brand{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;animation:dld-brand-fade 14s linear infinite}
-.hero-brand-short{animation-delay:-7s}
+.hero-brand{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;animation:dld-brand-fade 19s linear infinite}
+.hero-brand-short{animation-delay:-9.5s}
 body[data-page="inicio"] .hero-brand img{width:100%!important;height:auto!important;max-height:100%!important;object-fit:contain}
 .hero-brand-short img{aspect-ratio:2048/1208}
-.hero-brand::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,transparent 38%,rgba(255,255,255,.5) 44%,#fff 49%,#fff 51%,rgba(255,255,255,.5) 56%,transparent 62%);background-size:300% 100%;background-repeat:no-repeat;mask:var(--brand-mask) center/contain no-repeat;-webkit-mask:var(--brand-mask) center/contain no-repeat;animation:dld-brand-glint 14s linear infinite}
-.hero-brand-short::after{animation-delay:-7s}
-@keyframes dld-brand-fade{0%,42.857%{opacity:1}50%,92.857%{opacity:0}100%{opacity:1}}
+.hero-brand::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,transparent 38%,rgba(255,255,255,.5) 44%,#fff 49%,#fff 51%,rgba(255,255,255,.5) 56%,transparent 62%);background-size:300% 100%;background-repeat:no-repeat;mask:var(--brand-mask) center/contain no-repeat;-webkit-mask:var(--brand-mask) center/contain no-repeat;animation:dld-brand-glint 19s linear infinite}
+.hero-brand-short::after{animation-delay:-9.5s}
+@keyframes dld-brand-fade{0%,42.105263%{opacity:1}50%,92.105263%{opacity:0}100%{opacity:1}}
 @keyframes dld-brand-glint{0%,12%{background-position:150% 0;opacity:0}14%{opacity:1}32%{background-position:-50% 0;opacity:1}34%,100%{background-position:-50% 0;opacity:0}}
 @media(max-width:700px){.hero-brand-cycle{width:min(260px,78vw)}}
 @media(prefers-reduced-motion:reduce){.hero-brand{animation:none}.hero-brand-short{display:none}.hero-brand::after{display:none}}
