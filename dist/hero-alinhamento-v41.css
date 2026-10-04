@@ -41,5 +41,8 @@ body[data-page="inicio"] .hero-copy .hero-title-solid .signal-base{color:#fcf8f8
 body[data-page="inicio"] .hero-copy .hero-title-solid .signal-next{color:#ed1b24;-webkit-text-stroke:0}
 body[data-page="inicio"] .hero-copy .hero-title-outline .signal-base{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
 body[data-page="inicio"] .hero-copy .hero-title-outline .signal-next{color:transparent;-webkit-text-stroke:1.5px #ed1b24}
-.hero-copy .eyebrow .signal-base{color:#ed1b24}.hero-copy .summary .signal-base{color:#ddd}
+.hero-copy .eyebrow .signal-base{color:#ed1b24}.hero-copy .summary .signal-base{color:#ed1b24}
 .hero-copy .eyebrow .signal-next,.hero-copy .summary .signal-next{color:#fcf8f8}
+
+/* v82: description alternates red/white along with the brand label. */
+body[data-page="inicio"] .hero-copy .summary{color:#ed1b24}
