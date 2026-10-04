@@ -1018,3 +1018,9 @@ body[data-page="inicio"] .hero-copy h1,body[data-page="inicio"] .summary{max-wid
 
 /* Faixas de destaque: vermelho central e preto nas pontas. */
 html body .statement,html body .statement-growth,html body .live-title,html body .gallery-statement{background:linear-gradient(90deg,#000 0%,#4a0007 24%,#d90813 50%,#4a0007 76%,#000 100%)!important;}
+
+/* v86: textos dos trabalhos realizados centralizados apenas no celular. */
+@media(max-width:700px){body[data-page="inicio"] .portfolio .portfolio-grid .work{text-align:center;}}
+
+/* v88: centralização dos dois blocos de apresentação no celular. */
+@media(max-width:700px){body[data-page="inicio"] .about-pair .about-card{text-align:center;}body[data-page="inicio"] .about-pair .about-card .intro-action{margin-left:auto;margin-right:auto;}}
