@@ -178,9 +178,9 @@ body .experience .fact strong{font-size:1.65rem!important}
 }
 
 /* v72: reversible gradient test, preserving direction and black sections. */
-.hero{background:linear-gradient(105deg,#000 0%,#000 23%,#250003 50%,#650008 76%,#ad0914 100%)}
-.service-copy{background:linear-gradient(120deg,#0a0304 0%,#250003 48%,#570007 100%)}
-.service-row:nth-child(even) .service-copy{background:linear-gradient(120deg,#570007 0%,#250003 52%,#0a0304 100%)}
-.projects-invite{background:radial-gradient(ellipse at center,#570007 0%,#250003 37%,#030303 76%)}
-.page-hero{background:radial-gradient(ellipse at center,#650008 0%,#250003 42%,#090102 78%)}
-@media(max-width:700px){.hero{background:linear-gradient(105deg,#000 0%,#000 18%,#250003 45%,#650008 74%,#ad0914 100%)}}
+.hero{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}
+.service-copy{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}
+.service-row:nth-child(even) .service-copy{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}
+.projects-invite{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}
+.page-hero{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}
+@media(max-width:700px){.hero{background:linear-gradient(to top,#ad0914 0%,#650008 24%,#250003 50%,#000 78%,#000 100%)}}

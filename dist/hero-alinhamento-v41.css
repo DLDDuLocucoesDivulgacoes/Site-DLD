@@ -36,3 +36,16 @@ body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;-we
 @keyframes dld-title-solid{0%,8.333%,58.333%,100%{color:#fcf8f8}12.5%,54.167%{color:#ed1b24}}
 @keyframes dld-title-outline{0%,25%,75%,100%{color:transparent;-webkit-text-stroke-color:#fcf8f8}29.167%,70.833%{color:#ed1b24;-webkit-text-stroke-color:#ed1b24}}
 @media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
+
+/* v73: synchronized color flicker; outline remains transparent. */
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid{animation:dld-title-flicker-solid 24s steps(1,end) infinite}
+body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;animation:dld-title-flicker-outline 24s steps(1,end) infinite}
+@keyframes dld-title-flicker-solid{
+0%,25%,26%,27.2%,28.1%,75%,76%,77.2%,78.1%,100%{color:#fcf8f8}
+25.4%,26.4%,27.6%,29%,74.9%,75.4%,76.4%,77.6%{color:#ed1b24}
+}
+@keyframes dld-title-flicker-outline{
+0%,25%,26%,27.2%,28.1%,75%,76%,77.2%,78.1%,100%{color:transparent;-webkit-text-stroke-color:#fcf8f8}
+25.4%,26.4%,27.6%,29%,74.9%,75.4%,76.4%,77.6%{color:transparent;-webkit-text-stroke-color:#ed1b24}
+}
+@media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
