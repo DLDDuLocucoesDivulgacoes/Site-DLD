@@ -1,0 +1,2 @@
+/* Restaura somente o fundo das faixas de destaque. */
+html body .statement,html body .statement-growth,html body .live-title,html body .gallery-statement{background:linear-gradient(90deg,#000 0%,#4a0007 24%,#d90813 50%,#4a0007 76%,#000 100%)!important;}
