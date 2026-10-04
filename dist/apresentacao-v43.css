@@ -176,3 +176,11 @@ body .experience .fact strong{font-size:1.65rem!important}
 .original-icon-grid .original-icon-cell{display:flex;align-items:flex-end;justify-content:center;aspect-ratio:246/226;min-width:0}
 .original-icon-grid .original-icon-cell img{position:static!important;height:auto!important;max-width:100%!important;max-height:none!important;margin:0!important;object-fit:contain}
 }
+
+/* v72: reversible gradient test, preserving direction and black sections. */
+.hero{background:linear-gradient(105deg,#000 0%,#000 23%,#250003 50%,#650008 76%,#ad0914 100%)}
+.service-copy{background:linear-gradient(120deg,#0a0304 0%,#250003 48%,#570007 100%)}
+.service-row:nth-child(even) .service-copy{background:linear-gradient(120deg,#570007 0%,#250003 52%,#0a0304 100%)}
+.projects-invite{background:radial-gradient(ellipse at center,#570007 0%,#250003 37%,#030303 76%)}
+.page-hero{background:radial-gradient(ellipse at center,#650008 0%,#250003 42%,#090102 78%)}
+@media(max-width:700px){.hero{background:linear-gradient(105deg,#000 0%,#000 18%,#250003 45%,#650008 74%,#ad0914 100%)}}
