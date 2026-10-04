@@ -1024,3 +1024,12 @@ html body .statement,html body .statement-growth,html body .live-title,html body
 
 /* v88: centralização dos dois blocos de apresentação no celular. */
 @media(max-width:700px){body[data-page="inicio"] .about-pair .about-card{text-align:center;}body[data-page="inicio"] .about-pair .about-card .intro-action{margin-left:auto;margin-right:auto;}}
+
+/* v89: ajustes solicitados somente no celular. */
+@media(max-width:700px){
+ body[data-page="inicio"] .cta{padding-bottom:30px;min-height:0;height:auto;}
+ body[data-page="inicio"] .portfolio .work:has(.work-title-single-line){padding-left:4px;padding-right:4px;}
+ body[data-page="inicio"] .portfolio .work .work-title-single-line{white-space:nowrap;}
+ body[data-page="inicio"] .mvv .mvv-grid>div:last-child,
+ body[data-page="inicio"] .mvv .mvv-item{text-align:center;}
+}
