@@ -74,3 +74,17 @@ body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;-we
 .hero-copy .fragment-source{position:relative}
 body[data-page="inicio"] .hero-copy .fragment-overlay{position:absolute!important;inset:0;display:block;margin:0;padding:0;font:inherit;letter-spacing:inherit;line-height:inherit;text-transform:inherit;pointer-events:none;color:var(--fragment-color)!important;-webkit-text-stroke:0;mask-repeat:no-repeat;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;-webkit-mask-size:100% 100%}
 body[data-page="inicio"] .hero-copy .hero-title-outline>.fragment-overlay{color:transparent!important;-webkit-text-stroke:1.5px #ed1b24}
+
+/* v76: include accents outside the tight title line box. */
+body[data-page="inicio"] .hero-copy .fragment-overlay{top:-.35em!important;bottom:-.35em!important;padding-top:.35em!important;padding-bottom:.35em!important;overflow:visible!important}
+
+/* v77: complementary masks replace fragments instead of overlapping text. */
+.hero-copy .signal-text{position:relative}
+.hero-copy .signal-base,.hero-copy .signal-next{display:block!important;font:inherit!important;letter-spacing:inherit;line-height:inherit;text-transform:inherit;padding:.4em 0;margin:-.4em 0;mask-mode:luminance;-webkit-mask-mode:luminance;mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+.hero-copy .signal-next{position:absolute;inset:0;pointer-events:none}
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid .signal-base{color:#fcf8f8;-webkit-text-stroke:0}
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid .signal-next{color:#ed1b24;-webkit-text-stroke:0}
+body[data-page="inicio"] .hero-copy h1 .hero-title-outline .signal-base{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
+body[data-page="inicio"] .hero-copy h1 .hero-title-outline .signal-next{color:transparent;-webkit-text-stroke:1.5px #ed1b24}
+.hero-copy .eyebrow .signal-base{color:#ed1b24}.hero-copy .summary .signal-base{color:#ddd}
+.hero-copy .eyebrow .signal-next,.hero-copy .summary .signal-next{color:#fcf8f8}
