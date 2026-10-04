@@ -66,3 +66,11 @@ body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;ani
 69.75%,72%,74%,76%,78%,80%,82%,85%,87%{color:transparent;-webkit-text-stroke-color:#ed1b24}
 }
 @media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
+
+/* v75: localized fragments instead of whole-title flicker. */
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none!important;position:relative}
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid{color:#fcf8f8;-webkit-text-stroke:0}
+body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
+.hero-copy .fragment-source{position:relative}
+body[data-page="inicio"] .hero-copy .fragment-overlay{position:absolute!important;inset:0;display:block;margin:0;padding:0;font:inherit;letter-spacing:inherit;line-height:inherit;text-transform:inherit;pointer-events:none;color:var(--fragment-color)!important;-webkit-text-stroke:0;mask-repeat:no-repeat;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;-webkit-mask-size:100% 100%}
+body[data-page="inicio"] .hero-copy .hero-title-outline>.fragment-overlay{color:transparent!important;-webkit-text-stroke:1.5px #ed1b24}
