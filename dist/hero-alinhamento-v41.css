@@ -29,62 +29,17 @@ body[data-page="inicio"] .hero-brand img{width:100%!important;height:auto!import
 @media(max-width:700px){.hero-brand-cycle{width:min(260px,78vw)}}
 @media(prefers-reduced-motion:reduce){.hero-brand{animation:none}.hero-brand-short{display:none}.hero-brand::after{display:none}}
 
-/* v72: optical size of the horizontal brand; title changes four seconds apart. */
+/* v79: preserved brand scale, clean text layers without negative margins. */
 .hero-brand-short{transform:scale(1.1)}
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid{color:#fcf8f8;-webkit-text-stroke:0 transparent;animation:dld-title-solid 24s linear infinite}
-body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;-webkit-text-stroke:1.5px #fcf8f8;animation:dld-title-outline 24s linear infinite}
-@keyframes dld-title-solid{0%,8.333%,58.333%,100%{color:#fcf8f8}12.5%,54.167%{color:#ed1b24}}
-@keyframes dld-title-outline{0%,25%,75%,100%{color:transparent;-webkit-text-stroke-color:#fcf8f8}29.167%,70.833%{color:#ed1b24;-webkit-text-stroke-color:#ed1b24}}
-@media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
-
-/* v73: synchronized color flicker; outline remains transparent. */
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid{animation:dld-title-flicker-solid 24s steps(1,end) infinite}
-body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;animation:dld-title-flicker-outline 24s steps(1,end) infinite}
-@keyframes dld-title-flicker-solid{
-0%,25%,26%,27.2%,28.1%,75%,76%,77.2%,78.1%,100%{color:#fcf8f8}
-25.4%,26.4%,27.6%,29%,74.9%,75.4%,76.4%,77.6%{color:#ed1b24}
-}
-@keyframes dld-title-flicker-outline{
-0%,25%,26%,27.2%,28.1%,75%,76%,77.2%,78.1%,100%{color:transparent;-webkit-text-stroke-color:#fcf8f8}
-25.4%,26.4%,27.6%,29%,74.9%,75.4%,76.4%,77.6%{color:transparent;-webkit-text-stroke-color:#ed1b24}
-}
-@media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
-
-/* v74: gradual signal failure, synchronized, six-second transition. */
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid{animation:dld-signal-solid 32s linear infinite}
-body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;animation:dld-signal-outline 32s linear infinite}
-@keyframes dld-signal-solid{
-0%,25%,26%,28%,30%,32%,34%,36%,38%,41%,43%{color:#fcf8f8}
-25.5%,27%,29%,31%,33%,35%,37%,39%,42%,44%,68.75%{color:#ed1b24}
-69.25%,71%,73%,75%,77%,79%,81%,83%,86%,87.5%,100%{color:#fcf8f8}
-69.75%,72%,74%,76%,78%,80%,82%,85%,87%{color:#ed1b24}
-}
-@keyframes dld-signal-outline{
-0%,25%,26%,28%,30%,32%,34%,36%,38%,41%,43%{color:transparent;-webkit-text-stroke-color:#fcf8f8}
-25.5%,27%,29%,31%,33%,35%,37%,39%,42%,44%,68.75%{color:transparent;-webkit-text-stroke-color:#ed1b24}
-69.25%,71%,73%,75%,77%,79%,81%,83%,86%,87.5%,100%{color:transparent;-webkit-text-stroke-color:#fcf8f8}
-69.75%,72%,74%,76%,78%,80%,82%,85%,87%{color:transparent;-webkit-text-stroke-color:#ed1b24}
-}
-@media(prefers-reduced-motion:reduce){body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none}}
-
-/* v75: localized fragments instead of whole-title flicker. */
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{animation:none!important;position:relative}
+body[data-page="inicio"] .hero-copy h1 .hero-title-solid,body[data-page="inicio"] .hero-copy h1 .hero-title-outline{position:relative;display:block;animation:none!important;line-height:1.05}
 body[data-page="inicio"] .hero-copy h1 .hero-title-solid{color:#fcf8f8;-webkit-text-stroke:0}
 body[data-page="inicio"] .hero-copy h1 .hero-title-outline{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
-.hero-copy .fragment-source{position:relative}
-body[data-page="inicio"] .hero-copy .fragment-overlay{position:absolute!important;inset:0;display:block;margin:0;padding:0;font:inherit;letter-spacing:inherit;line-height:inherit;text-transform:inherit;pointer-events:none;color:var(--fragment-color)!important;-webkit-text-stroke:0;mask-repeat:no-repeat;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;-webkit-mask-size:100% 100%}
-body[data-page="inicio"] .hero-copy .hero-title-outline>.fragment-overlay{color:transparent!important;-webkit-text-stroke:1.5px #ed1b24}
-
-/* v76: include accents outside the tight title line box. */
-body[data-page="inicio"] .hero-copy .fragment-overlay{top:-.35em!important;bottom:-.35em!important;padding-top:.35em!important;padding-bottom:.35em!important;overflow:visible!important}
-
-/* v77: complementary masks replace fragments instead of overlapping text. */
 .hero-copy .signal-text{position:relative}
-.hero-copy .signal-base,.hero-copy .signal-next{display:block!important;font:inherit!important;letter-spacing:inherit;line-height:inherit;text-transform:inherit;padding:.4em 0;margin:-.4em 0;mask-mode:luminance;-webkit-mask-mode:luminance;mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
-.hero-copy .signal-next{position:absolute;inset:0;pointer-events:none}
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid .signal-base{color:#fcf8f8;-webkit-text-stroke:0}
-body[data-page="inicio"] .hero-copy h1 .hero-title-solid .signal-next{color:#ed1b24;-webkit-text-stroke:0}
-body[data-page="inicio"] .hero-copy h1 .hero-title-outline .signal-base{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
-body[data-page="inicio"] .hero-copy h1 .hero-title-outline .signal-next{color:transparent;-webkit-text-stroke:1.5px #ed1b24}
+body[data-page="inicio"] .hero-copy .signal-base,body[data-page="inicio"] .hero-copy .signal-next{display:block;font:inherit!important;letter-spacing:inherit;line-height:inherit!important;text-transform:inherit;padding:0!important;margin:0!important;mask-mode:alpha;mask-size:100% 100%;-webkit-mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+body[data-page="inicio"] .hero-copy .signal-next{position:absolute;inset:0;pointer-events:none}
+body[data-page="inicio"] .hero-copy .hero-title-solid .signal-base{color:#fcf8f8;-webkit-text-stroke:0}
+body[data-page="inicio"] .hero-copy .hero-title-solid .signal-next{color:#ed1b24;-webkit-text-stroke:0}
+body[data-page="inicio"] .hero-copy .hero-title-outline .signal-base{color:transparent;-webkit-text-stroke:1.5px #fcf8f8}
+body[data-page="inicio"] .hero-copy .hero-title-outline .signal-next{color:transparent;-webkit-text-stroke:1.5px #ed1b24}
 .hero-copy .eyebrow .signal-base{color:#ed1b24}.hero-copy .summary .signal-base{color:#ddd}
 .hero-copy .eyebrow .signal-next,.hero-copy .summary .signal-next{color:#fcf8f8}
