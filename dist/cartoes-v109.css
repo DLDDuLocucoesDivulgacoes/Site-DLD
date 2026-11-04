@@ -1,0 +1,6 @@
+
+/* v109: five independent cards; preserve order and center the last row. */
+.digital-card-grid{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:28px}
+.digital-card-grid>.digital-card{width:calc((100% - 84px)/4);min-width:0;flex:none}
+@media(max-width:1000px){.digital-card-grid>.digital-card{width:calc((100% - 28px)/2)}}
+@media(max-width:600px){.digital-card-grid>.digital-card{width:min(100%,380px)}}
